@@ -1,0 +1,25 @@
+GET  http://localhost:3000/states/
+
+
+###
+
+DELETE http://localhost:3000/districts/1/
+
+###
+
+GET http://localhost:3000/districts/2/
+
+###
+
+GET http://localhost:3000/districts/3/
+
+###
+POST http://localhost:3000/login/
+Content-Type :application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+###
